@@ -6,11 +6,8 @@ async function loadmodel(){
   return model;
 }
 function input(){
-  let file = (document.getElementById("file") as HTMLInputElement).files;
+  let file = (document.getElementById("file") as HTMLInputElement).files as FileList;
   (document.getElementById("image") as HTMLDivElement).innerHTML = "";
-  if(!file){
-    return;
-  }
     let img = document.createElement('img');
     let predict = document.createElement('p');
     img.src = URL.createObjectURL(file[0]);
