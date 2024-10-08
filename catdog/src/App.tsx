@@ -24,9 +24,9 @@ function input(){
       cat = cat.div(255);
       const prediction = (model.predict(tf.stack([cat])) as tf.Tensor).dataSync();
       if(prediction[0] > prediction[1]){
-        predict.innerHTML = `I am ${prediction[0]}% sure that is a dog`
+        predict.innerHTML = `I am ${prediction[0] * 100}% sure that is a dog`
       } else {
-        predict.innerHTML = `I am ${prediction[1]}% sure that is a cat`
+        predict.innerHTML = `I am ${prediction[1] * 100}% sure that is a cat`
       }
       (document.getElementById("image") as HTMLDivElement).appendChild(img);
       (document.getElementById("image") as HTMLDivElement).appendChild(predict);
