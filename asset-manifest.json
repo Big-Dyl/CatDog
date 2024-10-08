@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CatDog/static/css/main.f855e6bc.css",
-    "main.js": "/CatDog/static/js/main.bdc01a3c.js",
+    "main.js": "/CatDog/static/js/main.78446923.js",
     "static/js/453.ef9f38fc.chunk.js": "/CatDog/static/js/453.ef9f38fc.chunk.js",
     "index.html": "/CatDog/index.html",
     "main.f855e6bc.css.map": "/CatDog/static/css/main.f855e6bc.css.map",
-    "main.bdc01a3c.js.map": "/CatDog/static/js/main.bdc01a3c.js.map",
+    "main.78446923.js.map": "/CatDog/static/js/main.78446923.js.map",
     "453.ef9f38fc.chunk.js.map": "/CatDog/static/js/453.ef9f38fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.bdc01a3c.js"
+    "static/js/main.78446923.js"
   ]
 }
