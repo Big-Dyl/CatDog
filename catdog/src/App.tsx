@@ -2,7 +2,6 @@ import React from 'react';
 import * as tf from '@tensorflow/tfjs';
 import './App.css';
 async function loadmodel(){
-  console.log("hi")
   const model = await tf.loadLayersModel(process.env.PUBLIC_URL + '/my_model/model.json');
   return model;
 }
