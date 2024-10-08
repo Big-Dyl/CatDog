@@ -31,9 +31,9 @@ function input(){
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style = {{textAlign: 'center'}}>
         <h1>UPLOAD A PICTURE HERE!</h1>
-        <input id = "file" type="file" name="file" accept='.jpg' onChange={()=>{input()}}></input>
+        <input id = "file" type="file" name="file" accept='jpg' onChange={()=>{input()}}></input>
         <div id = "image" style = {{textAlign: 'center'}}>
 
         </div>
